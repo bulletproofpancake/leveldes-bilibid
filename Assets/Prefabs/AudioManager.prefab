@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2753929781678857765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2263806179707986749}
+  - component: {fileID: 300307789314301031}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2263806179707986749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2753929781678857765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &300307789314301031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2753929781678857765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a829a1ab7815c0846910a642b967bf81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BGM
+    clip: {fileID: 8300000, guid: 7411ae5e6f37c574393e10ade8e688b9, type: 3}
+    volume: 0.7
+    loop: 1
+    source: {fileID: 0}
+  - name: GetKey
+    clip: {fileID: 8300000, guid: 83c6ed1378596004390c8ee9ddc21f46, type: 3}
+    volume: 0.4
+    loop: 0
+    source: {fileID: 0}
+  - name: Exit
+    clip: {fileID: 8300000, guid: e06926c14b35a6f46948776fde61990d, type: 3}
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - name: GuardAlert
+    clip: {fileID: 8300000, guid: f779ee4ae160487448ac53257b7b4565, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: GuardAlarm
+    clip: {fileID: 8300000, guid: 608fb2b800050944a91387f19eaf6e68, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
